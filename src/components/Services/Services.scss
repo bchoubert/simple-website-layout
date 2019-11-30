@@ -1,0 +1,41 @@
+.Services {
+  width: 100%;
+  padding-bottom: 5rem;
+
+  &-content {
+    display: block;
+    margin: 0 auto;
+    width: var(--content-width);
+
+    .card {
+      width: calc(100% - 4rem);
+      padding: 1rem 2rem;
+      display: block;
+      box-shadow: var(--shadow);
+      background-color: #FFFFFF;
+      border-radius: var(--border-radius);
+
+      & + .card {
+        margin-top: 2rem;
+      }
+
+      &-title {
+        font-weight: normal;
+        font-size: 1rem;
+        padding: 1rem 0;
+        text-align: left;
+        border-bottom: 1px solid var(--gray-normal);
+
+        svg {
+          color: var(--accent-yellow);
+          margin-right: .5rem;
+        }
+      }
+
+      p {
+        color: var(--gray-dark);
+        text-align: left;
+      }
+    }
+  }
+}

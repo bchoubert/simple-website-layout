@@ -1,0 +1,51 @@
+.Footer {
+  background-color: #FFFFFF;
+
+  &-content {
+    padding: 1rem 2rem;
+    display: grid;
+    font-size: 80%;
+    grid-template: auto auto / auto 40%;
+
+    .links {
+      grid-column: 1 span 1;
+      grid-row: 1 span 1;
+      text-align: left;
+      padding: .5rem 0;
+
+      a, a:hover, a:focus, a:active, a:link, a:visited {
+        color: #000000;
+        text-decoration: none;
+      }
+
+      svg {
+        width: .35rem;
+        margin: 0 .5rem;
+      }
+    }
+
+    .copyright {
+      grid-column: 1 / span 1;
+      grid-row: 2 span 1;
+      text-align: left;
+      color: var(--gray-dark);
+      padding: .5rem 0;
+    }
+
+    .networks {
+      grid-column: 2 / span 1;
+      grid-row: 1 / span 2;
+      text-align: right;
+      padding: .5rem 0;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+      svg {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: 1rem;
+      }
+    }
+  }
+}
