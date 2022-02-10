@@ -33,7 +33,7 @@
     ]
   },
   "devDependencies": {
-    "node-sass": "^4.13.0"
+    "node-sass": "^7.0.0"
   },
   "homepage": "http://bchoubert.github.io/simple-website-layout/build"
 }
